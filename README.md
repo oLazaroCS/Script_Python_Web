@@ -1,1 +1,29 @@
 # Script_Python_Web
+
+Descrição: Automatização de Entrada de Texto em Navegador com Atalhos de Teclado
+
+Este script em Python foi desenvolvido para automatizar a entrada de texto em campos de texto de qualquer navegador da web, permitindo que o usuário insira frases predefinidas utilizando atalhos de teclado.
+
+Funcionalidades Principais:
+
+Atalhos de Teclado para Frases Específicas: O script mapeia combinações de teclas específicas para frases predefinidas. Por exemplo, pressionar "Ctrl+1" pode inserir a frase "Esta é a frase para Ctrl+1".
+
+Universalidade: Este script pode ser utilizado em qualquer campo de texto ativo em um navegador da web, independente do site ou aplicativo web utilizado. Ele identifica automaticamente o campo de texto ativo e insere a frase correspondente quando o atalho de teclado é pressionado.
+
+Integração com Selenium e Keyboard: O script utiliza a biblioteca Selenium para interagir com o navegador da web e localizar o campo de texto ativo. Além disso, utiliza o módulo keyboard para monitorar os atalhos de teclado e acionar a inserção das frases.
+
+Como Utilizar:
+
+Configuração do Ambiente: É necessário ter o Python instalado no sistema, juntamente com as bibliotecas selenium e keyboard.
+
+Execução do Script: O usuário executa o script Python em seu ambiente local.
+
+Ativação dos Atalhos: Após a execução do script, o usuário pode pressionar os atalhos de teclado definidos para inserir as frases correspondentes nos campos de texto ativos do navegador.
+
+Encerramento do Script:
+
+O script permanece em execução em segundo plano, monitorando os atalhos de teclado e inserindo as frases conforme necessário. Para encerrar o script, o usuário pode pressionar Ctrl+C no terminal onde o script está sendo executado.
+
+Notas Importantes:
+
+Este script pode ser personalizado adicionando mais atalhos de teclado e frases ao dicionário atalhos_para_frases, de acordo com as necessidades do usuário.
